@@ -1,3 +1,7 @@
+Q6:Create an interface having prototypes of functions area() and perimeter(). Create two 
+classes Circle and Rectangle which implements the above interface. Create a menu driven 
+program to find area and perimeter of objects. 
+
 import java.util.Scanner;
 
 interface Shape{
@@ -61,6 +65,96 @@ public class RecCircle{
                                                                           }
 }
 }
+
+OUTPUT
+
+D:\JAVA PROGRAMS>javac RecCircle.java
+
+D:\JAVA PROGRAMS>java RecCircle
+Enter the length of the Rectangle
+5
+enter the width of the Rectangle
+3
+Enter the radius of the circle
+2
+
+ENTER YOUR CHOICE
+1
+
+___________________MENU__________________________
+
+
+        1.Area of Circle
+        2.Perimeter of Circle
+        3.Area of Rectangle
+        4.Perimeter of Rectangle
+        5.exit
+
+__________________________________________________
+
+Area of the circle:12.56
+
+ENTER YOUR CHOICE
+2
+
+___________________MENU__________________________
+
+
+        1.Area of Circle
+        2.Perimeter of Circle
+        3.Area of Rectangle
+        4.Perimeter of Rectangle
+        5.exit
+
+__________________________________________________
+
+Perimeter of the circle:12.56
+
+ENTER YOUR CHOICE
+3
+
+___________________MENU__________________________
+
+
+        1.Area of Circle
+        2.Perimeter of Circle
+        3.Area of Rectangle
+        4.Perimeter of Rectangle
+        5.exit
+
+__________________________________________________
+
+Area of the Rectangle:15.0
+
+ENTER YOUR CHOICE
+4
+
+___________________MENU__________________________
+
+
+        1.Area of Circle
+        2.Perimeter of Circle
+        3.Area of Rectangle
+        4.Perimeter of Rectangle
+        5.exit
+
+__________________________________________________
+
+Perimeter of the Rectangle:30.0
+
+ENTER YOUR CHOICE
+5
+
+___________________MENU__________________________
+
+
+        1.Area of Circle
+        2.Perimeter of Circle
+        3.Area of Rectangle
+        4.Perimeter of Rectangle
+        5.exit
+
+__________________________________________________
 
 
 
