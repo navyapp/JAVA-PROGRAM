@@ -1,3 +1,9 @@
+Q2:Create a class ‘Employee’ with data members Empid, Name, Salary, Address and 
+constructors to initialize the data members. Create another class ‘Teacher’ that inherit the 
+properties of class employee and contain its own data members department, Subjects taught 
+and constructors to initialize these data members and also include display function to 
+display all the data members. Use array of objects to display details of N teachers. 
+
 import java.util.*;
 
 class Employee{
@@ -80,3 +86,67 @@ public class TeacherDetails {
         displayDetails(t);
     }
 }
+
+OUTPUT
+
+D:\JAVA PROGRAMS>javac TeacherDetails.java
+
+D:\JAVA PROGRAMS>java TeacherDetails
+Enter the no of Teachers :2
+
+Enter the Employee Id : 12
+Enter the Employee Name : ANU
+Enter the Employee Address : KANNUR
+Enter the Salary : 20000
+Enter the Department : MCA
+Enter the Number of Subjects tought by the teacher : 2
+Enter the Subjects tought by the teacher : C C++
+
+
+Enter the Employee Id : 13
+Enter the Employee Name : MANU
+Enter the Employee Address : KANNUR
+Enter the Salary : 30000
+Enter the Department : MCA
+Enter the Number of Subjects tought by the teacher : 2
+Enter the Subjects tought by the teacher : JAVA PYTHON
+
+
+        Details of a Teacher
+
+        ________
+
+
+        Employee id : 12
+
+        Employee Name : ANU
+
+        Employee Address : KANNUR
+
+        Employee Salary : 20000.0
+
+        Department : MCA
+
+        Subjects Tought : C C++,
+        ________
+
+
+        Details of a Teacher
+
+        ________
+
+
+        Employee id : 13
+
+        Employee Name : MANU
+
+        Employee Address : KANNUR
+
+        Employee Salary : 30000.0
+
+        Department : MCA
+
+        Subjects Tought : JAVA PYTHON,
+        ________
+
+
