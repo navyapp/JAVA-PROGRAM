@@ -1,3 +1,5 @@
+Q3:Perform string manipulations
+
 import java.util.Scanner;
 
 class Stringmanipulation
@@ -61,3 +63,20 @@ public class Stringmanipulations
         sm.StringCompare();
     }
 }
+
+OUTPUT
+
+D:\JAVA PROGRAMS>javac Stringmanipulations.java
+
+D:\JAVA PROGRAMS>java Stringmanipulations
+Enter first string : pyton
+Enter Second string : program
+Length of pyton is : 5
+Length of program is : 7
+After String adding pyton and program is : pytonprogram
+Enter the position of Character you want to access : 3
+Character at position 3 of pyton is : t
+Character at position 3 of program is : o
+Uppercase of string pyton is: PYTON
+Lowercase of string pyton is: program
+Two Strings are not equal!
