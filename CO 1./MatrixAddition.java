@@ -1,3 +1,5 @@
+Q2:Read 2 matrices from the console and perform matrix addition.
+
 import java.util.Scanner;
 
 class Matrix {
@@ -67,3 +69,25 @@ public static void displayMatrix(Matrix result)
         displayMatrix(result);
 }
 }
+
+OUTPUT
+
+D:\JAVA PROGRAMS>javac MatrixAddition.java
+
+D:\JAVA PROGRAMS>java MatrixAddition
+Enter Number of Rows:2
+Enter Number of columns:2
+Enter the elements of matrix1:
+2
+3
+4
+5
+Enter the elements of matrix2:
+3
+4
+5
+6
+The metrix after adding given 2 matrices:
+        5       7
+        9       11
+
