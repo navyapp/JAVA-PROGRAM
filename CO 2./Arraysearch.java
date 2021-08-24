@@ -1,3 +1,5 @@
+Q2:Search an element in an array.
+
 import java.util.Scanner;
 class Arraysearch
 {
@@ -40,3 +42,19 @@ else
 }
 }
  
+OUTPUT
+
+D:\JAVA PROGRAMS>javac Arraysearch.java
+
+D:\JAVA PROGRAMS>java Arraysearch
+enter the  no of  elementsin array
+5
+enter the elements of an array
+2
+5
+6
+7
+8
+enter element you want
+9
+element is not found
