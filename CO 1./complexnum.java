@@ -1,3 +1,5 @@
+Q3:Add complex numbers 
+
 class complex
 {
 int real;
@@ -25,3 +27,11 @@ num2.addition(num1);
 
 }
 }
+
+OUTPUT
+
+D:\JAVA PROGRAMS>javac complexnum.java
+
+D:\JAVA PROGRAMS>java complexnum
+addition of complex numbers is 9+5i
+
