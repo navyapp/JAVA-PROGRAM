@@ -1,3 +1,7 @@
+Q:Create classes Student and Sports. Create another class Result inherited from Student and 
+Sports. Display the academic and sports score of a student. 
+
+
 import java.util.Scanner;
 interface student{
               public void StudentDetails(Scanner sc);
@@ -52,3 +56,24 @@ public class StudentResult{
                                                       r.display();
                                                      }
 }                                                            
+
+OUTPUT
+D:\JAVA PROGRAMS>javac StudentResult.java
+
+D:\JAVA PROGRAMS>java StudentResult
+enter the roll number of the student
+46
+enter the name of the student
+NAVYA
+enter the total mark
+1000
+enter the student obtained mark
+800
+enter the sports mark
+300
+________________________________________
+Roll number of the student:46
+Name of the student:NAVYA
+total mark (1000):800
+sports mark (500):300
+________________________________________
