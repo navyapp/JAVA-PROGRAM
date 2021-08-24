@@ -1,3 +1,6 @@
+Q1: Define a class ‘product’ with data members pcode, pname and price. Create 3 objects of 
+the class and find the product having the lowest price.
+
 class product
 {
 String pcode;
@@ -43,3 +46,8 @@ System.out.println("lowest price is " + sname);
 }
 }
   
+OUTPUT
+D:\JAVA PROGRAMS>javac productprz.java
+
+D:\JAVA PROGRAMS>java productprz
+lowest price is fridge
