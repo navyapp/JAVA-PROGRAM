@@ -1,3 +1,7 @@
+Q4:Program to create a class for Employee having attributes eNo, eName eSalary. Read n 
+employ information and Search for an employee given eNo, using the concept of Array of 
+Objects.
+
 import java.util.Scanner;
 
 class Employee{
@@ -56,3 +60,23 @@ public class Employeedetails{
         Search(emp, read);
     }
 }
+
+OUTPUT
+
+D:\JAVA PROGRAMS>javac Employeedetails.java
+
+D:\JAVA PROGRAMS>java Employeedetails
+Enter the number of Employee : 2
+
+Enter the Employee Number : 1
+Enter the Employee Name : ANAND
+Enter the Salary : 12000
+
+Enter the Employee Number : 3
+Enter the Employee Name : SHANKAR
+Enter the Salary : 30000
+
+Enter the Employee Number to be Searched: 1
+        Details of given Employee:
+        Employee Name: ANAND
+        Employee salary: 12000.0
