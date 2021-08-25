@@ -1,3 +1,11 @@
+Q3:Create a class ‘Person’ with data members Name, Gender, Address, Age and a constructor 
+to initialize the data members and another class ‘Employee’ that inherits the properties of 
+class Person and also contains its own data members like Empid, Company_name, 
+Qualification, Salary and its own constructor. Create another class ‘Teacher’ that inherits 
+the properties of class Employee and contains its own data members like Subject, 
+Department, Teacherid and also contain constructors and methods to display the data 
+members. Use array of objects to display details of N teachers. 
+
 import java.util.*;
 
 class Person{
@@ -101,3 +109,99 @@ public class MultiInheritance {
         displayDetails(t);
     }
 }
+
+OUTPUT
+
+D:\JAVA PROGRAMS>javac MultiInheritance.java
+
+D:\JAVA PROGRAMS>java MultiInheritance
+Enter the no of Teachers :2
+
+
+___________
+
+Enter the Details of Teacher 1
+___________
+
+Enter the Name : seetha
+
+Enter the Gender : female
+
+Enter the Address : kannur
+
+Enter the Age : 45
+
+Enter the Employee Id : 12
+
+Enter the Company Name : nnnn
+
+Enter the Qualification : mca
+
+Enter the Salary : 300000
+
+Enter the Department : mca
+
+Enter the Subject tought by the teacher : python
+
+Enter the Teacher Id : 2
+
+
+___________
+
+Enter the Details of Teacher 2
+___________
+
+Enter the Name : mani
+
+Enter the Gender : male
+
+Enter the Address : kannur
+
+Enter the Age : 46
+
+Enter the Employee Id : 13
+
+Enter the Company Name : mmmm
+
+Enter the Qualification : mca
+
+Enter the Salary : 30000
+
+Enter the Department : mca
+
+Enter the Subject tought by the teacher : c
+
+Enter the Teacher Id : 5
+
+                        Details of a Teacher 1
+                _____________
+
+                        Name of Employee : seetha
+                        Gender : female
+                        Address : kannur
+                        Age : 45
+                        Employee id : 12
+                        Company Name : nnnn
+                        Qualification : mca
+                        Employee Salary : null
+                        Teacher Id : 2
+                        Department : mca
+                        Subject Tought : python
+                _____________
+
+
+                        Details of a Teacher 2
+                _____________
+
+                        Name of Employee : mani
+                        Gender : male
+                        Address : kannur
+                        Age : 46
+                        Employee id : 13
+                        Company Name : mmmm
+                        Qualification : mca
+                        Employee Salary : null
+                        Teacher Id : 5
+                        Department : mca
+                        Subject Tought : c
+                _____________
