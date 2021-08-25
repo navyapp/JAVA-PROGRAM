@@ -1,3 +1,6 @@
+Q4:Write a program has class Publisher, Book, Literature and Fiction. Read the information 
+and print the details of books from either the category, using inheritance.
+
 class Publisher{
 	String pname;
 	Publisher(String p){
@@ -56,3 +59,21 @@ class Books{
 		
 	}
 }
+
+OUTPUT
+
+D:\JAVA PROGRAMS>javac Books.java
+
+D:\JAVA PROGRAMS>java Books
+---------------------------------------
+Literature
+---------------------------------------
+Publisher name:Penguin publisers
+Book name:A Vision of Indian Youth
+Literature name: APJ Abdulkalam
+---------------------------------------
+Fiction
+---------------------------------------
+Publisher name:Time
+Book name:Anna Kerenina
+Fiction name:Leo Tolstoy
