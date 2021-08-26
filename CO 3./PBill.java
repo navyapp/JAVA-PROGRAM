@@ -1,3 +1,14 @@
+Q7: Prepare bill with the given format using calculate method from interface. 
+  
+Order No. 
+Date :
+
+Product Id      Name        Quantity        unit price                 Total 
+ 101              A           2                 25                      50
+ 102              B           1                 100                     100 
+  
+                                                            Net. Amount 150
+
 import java.util.Scanner;
 interface calculate{
                     public int calculate(int NetAmount);
@@ -53,7 +64,46 @@ public class PBill{
                                                     }
 }
 
+OUTPUT
 
+D:\JAVA PROGRAMS>javac PBill.java
+
+D:\JAVA PROGRAMS>java PBill
+
+
+Enter the Order No:
+100
+Enter the Number of Products:
+2
+
+
+Enter the Product Id:
+01
+Enter the Name:
+pen
+Enter the Quality of the product:
+5
+Enter UnitPrice of the Product:
+10
+
+
+Enter the Product Id:
+02
+Enter the Name:
+pencil
+Enter the Quality of the product:
+3
+Enter UnitPrice of the Product:
+5
+
+Order No:100
+Product Id      Name            Quality         Unit Price              Total
+
+____________________________________________________________________________
+1               pen             5               10                      50
+2               pencil          3               5                       15
+_____________________________________________________________________________
+                                                                 Net Amount:65
 
 
 
