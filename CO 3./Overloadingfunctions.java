@@ -1,3 +1,5 @@
+Q 1:Area of different shapes using overloaded functions 
+
 import java.util.*;
 
 class shapes
@@ -48,3 +50,17 @@ public class Overloadingfunctions
           }
 }
                  
+OUTPUT
+
+D:\JAVA PROGRAMS>javac Overloadingfunctions.java
+
+D:\JAVA PROGRAMS>java Overloadingfunctions
+Enter the length of the Square is :
+3
+Area of the Square:9
+Enter the length and width of the Rectangle is :
+2 3
+Area of the Rectangle:6.0
+Enter the radius of the Circle is :
+2
+Area of the circle:6.28
