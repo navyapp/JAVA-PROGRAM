@@ -7,7 +7,7 @@ class UserException extends Exception {
   public String toString()
   {
     
-    return "*UserName and Password not matching\n";
+    return "UserName and Password not matching\n";
   
   }
 
@@ -94,6 +94,6 @@ Enter the password:
 navyapp
 
 
-Exception :*UserName and Password not matching
+Exception :UserName and Password not matching
 
           
