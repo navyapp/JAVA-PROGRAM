@@ -1,3 +1,5 @@
+Q 3:Write a user defined exception class to authenticate the user name and password. 
+
 import java.util.Scanner;
 
 class UserException extends Exception {
@@ -64,5 +66,34 @@ public class Authentication
 
 }
 
-          
+ OUTPUT
+ 
+ D:\JAVA PROGRAMS>javac Authentication.java
+
+D:\JAVA PROGRAMS>java Authentication
+
+Enter the username:
+
+Navya
+
+Enter the password:
+
+navya99
+
+Successfully Completed
+
+
+D:\JAVA PROGRAMS>java Authentication
+
+Enter the username:
+
+navya
+
+Enter the password:
+
+navyapp
+
+
+Exception :*UserName and Password not matching
+
           
