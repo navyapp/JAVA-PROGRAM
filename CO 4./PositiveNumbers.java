@@ -1,3 +1,6 @@
+Q 4:Find the average of N positive integers, raising a user defined exception for each negative 
+input.
+
 import java.util.Scanner;
 
 class NegativeException extends Exception {
@@ -76,3 +79,41 @@ public class PositiveNumbers
      }
 
 }
+
+
+OUTPUT
+
+D:\JAVA PROGRAMS>javac PositiveNumbers.java
+
+D:\JAVA PROGRAMS>java PositiveNumbers
+
+Enter the Limit :
+
+3
+
+Enter the Numbers:
+
+10
+20
+30
+
+Avarage of positive numbers is :20.0
+
+D:\JAVA PROGRAMS>java PositiveNumbers
+
+Enter the Limit :
+
+3
+
+Enter the Numbers:
+
+10
+-20
+
+
+Exception :
+Enter the non negative numbers
+
+30
+
+Avarage of positive numbers is :20.0
