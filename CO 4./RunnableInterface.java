@@ -1,3 +1,6 @@
+Q 6:Define 2 classes; one for generating Fibonacci numbers and other for displaying even 
+numbers in a given range. Implement using threads. (Runnable Interface) 
+
 import java.util.*;
 
 class FibonacciNums implements Runnable {
@@ -59,3 +62,28 @@ public class RunnableInterface {
         t2.start();
     }
 }
+
+OUTPUT
+
+C:\Users\Admin\Desktop>javac RunnableInterface.java
+
+C:\Users\Admin\Desktop>java RunnableInterface
+
+Enter the limit for  even numbers: 10
+
+Enter the limit for Fibonacci numbers: 6
+
+Fibonacci numbers :
+1
+1
+2
+3
+5
+8
+
+The Even numbers upto 10 is :
+2
+4
+6
+8
+10
