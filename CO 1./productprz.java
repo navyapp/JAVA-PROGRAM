@@ -36,7 +36,7 @@ product  p2=new product();
 product  p3=new product();
 String sname;
 
-p1.setDim("01","television",2000);
+p1.setDim("01","television",20000);
 p2.setDim("02","fridge",3000);
 p3.setDim("03","AC",4000);
 
